@@ -1,0 +1,15 @@
+.rock-header {
+  background-image: url('./rock.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+
+.rounded-pill-start {
+  border-radius: 2em 0 0 2em;
+}
+
+.rounded-pill-end {
+  border-radius: 0 2em 2em 0;
+}
