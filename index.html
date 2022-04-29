@@ -35,24 +35,24 @@
         id="searchButton"></i>
     </section>
 
-    <section id="displayZone"
-      class="col-10 d-flex flex-column justify-content-center bg-light mx-auto my-2 p-2 border border-1 rounded">
-      This is where the result of your search should show... At some point...
-    </section>
-
     <section id="myPopUpSection" class="d-none flex-column justify-content-center bg-white rounded">
       <div class="d-flex flex-column justify-content-center">
         <div class="d-flex justify-content-between rounded-top bg-light border border-1">
-          <h2 class="m-0 p-2 g-0 fw-bold">Déjà repu(e) de gras et de sucre ?</h2>
+          <h2 class="m-0 p-2 g-0 fw-bold" id="myMovieTitle2">No valid title</h2>
           <p class="m-0 p-2 g-0"><i id="closeCross" class="bi bi-x-circle fs-3"></i></p>
         </div>
         <div class="d-flex flex-column rounded-bottom bg-light border border-1">
-          <p class="text-center my-2 mx-3">Avant de partir, laissez-nous donc vos coordonnées qu'on reste en contact</p>
-          <p class="text-center my-2 mx-3"><input type="email" class="form-control" placeholder="E-mail" /></p>
-          <p class="text-center my-2 mx-3"><input type="button" class="btn btn-primary" id="closeButton"
-              value="Fermer la fenêtre" /></p>
+          <p class="text-center my-2 mx-3" id="myMoviePoster2">No valid movie poster</p>
+          <p class="text-center my-2 mx-3" id="myMovieReleaseDate">No valid issue date</p>
+          <p class="text-center my-2 mx-3" id="myMovieActorsList">No valid actors'list</p>
+          <p class="text-center my-2 mx-3" id="myMovieStory">No synopsis</p>
         </div>
       </div>
+    </section>
+
+    <section id="displayZone"
+      class="col-10 d-flex flex-column justify-content-center bg-light mx-auto my-2 p-2 border border-1 rounded">
+      This is where the result of your search should show... At some point...
     </section>
 
   </main>
